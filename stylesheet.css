@@ -1,0 +1,50 @@
+p{
+color : red;
+font-size : 30px;
+font-weight : bold;
+padding : 20;
+margin : 15;
+}
+
+h1{
+color : purple;
+font-family : Algerian;
+text-align : center;
+}
+
+body{
+background-color : white;
+}
+
+div{
+background-color : orange;
+border : 2px dashed blue;
+}
+
+/*Descendants selector : the div containing any p will be decorated*/
+div p{
+color : White; 
+text-align : center;
+}
+
+/*Child Selector : the div containing only the p will be decorated*/
+div>p{
+background-color : Indigo;
+}
+
+a:link{
+color : green;
+}
+
+a:visited{
+color : pink;
+}
+
+a:hover{
+color : yellow;
+}
+
+a:active{
+color : red;
+}
+
